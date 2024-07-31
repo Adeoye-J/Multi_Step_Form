@@ -1,0 +1,105 @@
+.page3 {
+    width: 50%;
+    margin-inline-end: 7rem;
+    position: relative;
+}
+
+.page3 > h1 {
+    color: hsl(213, 96%, 18%);
+    margin-top: 1rem;
+    font-weight: bolder;
+    margin-bottom: 4px;
+}
+
+.page3 > p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: gray;
+}
+
+.add-ons {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.add-on {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    border: 2px solid hsl(229, 24%, 87%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.add-on:hover {
+    border: 2px solid hsl(213, 96%, 18%);
+}
+
+.add-on input {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content > p {
+    color: hsl(243, 100%, 62%);
+    font-weight: bold;
+}
+
+.details h3 {
+    color: hsl(213, 96%, 18%);
+}
+
+.details p {
+    color: gray;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+.page3 button {
+    position: absolute;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: .75rem 1.3rem;
+    transition: all ease-in-out .6s;
+    cursor: pointer;
+    border: 1px solid rgb(1, 1, 122);
+}
+  
+.page3 button.next:hover {
+    background-color: #fff;
+    color: rgb(1, 1, 122);
+    border: 1px solid rgb(1, 1, 122);
+}
+  
+.page3 button.return:hover {
+    background-color: rgb(1, 1, 122);
+    color: #fff;
+    border: 1px solid rgb(1, 1, 122);
+}
+  
+.page3 button.return {
+    left: 0;
+    bottom: 1rem;
+    color: rgb(1, 1, 122);
+}
+  
+.page3 button.next {
+    background-color: rgb(1, 1, 122);
+    right: 0;
+    color: #fff;
+    bottom: 1rem;
+}

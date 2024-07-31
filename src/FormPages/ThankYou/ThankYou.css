@@ -1,0 +1,48 @@
+.thank-you {
+    width: 50%;
+    margin-inline-end: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thankyou-container{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.thankyou-container .image-container {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.thank-you-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.thank-you-content h1{
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.thank-you-content p {
+    color: gray;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+}

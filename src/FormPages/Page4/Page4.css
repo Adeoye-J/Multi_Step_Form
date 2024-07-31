@@ -1,0 +1,133 @@
+.page4 {
+    width: 50%;
+    margin-inline-end: 7rem;
+    position: relative;
+}
+
+.page4 > h1 {
+    color: hsl(213, 96%, 18%);
+    margin-top: 1rem;
+    font-weight: bolder;
+    margin-bottom: 4px;
+}
+
+.page4 > p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: gray;
+}
+
+.summary-container {
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-color: hsl(231, 100%, 95%);
+    padding: 1.5rem;
+}
+
+.sub-duration {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.plan-duration h3 {
+    font-size: 1.1rem;
+    color: hsl(213, 96%, 18%);
+}
+
+.plan-duration span{
+    color: gray;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.plan-amount p {
+    font-weight: 900;
+    color: hsl(213, 96%, 18%);
+}
+
+hr {
+    border: 1px solid rgba(128, 128, 128, 0.281);
+}
+
+.add-ons-container {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.add-on-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-on-container h4 {
+    color: gray;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.add-on-container p {
+    color: hsl(213, 96%, 18%);
+    font-weight: 600;
+}
+
+.total-container {
+    margin: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total-container h4 {
+    color: gray;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.total-container p {
+    font-weight: bolder;
+    color: rgb(1, 1, 122);
+    font-size: 1.4rem;
+}
+
+.page4 button {
+    position: absolute;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: .75rem 1.3rem;
+    transition: all ease-in-out .6s;
+    cursor: pointer;
+    border: 1px solid rgb(1, 1, 122);
+}
+  
+.page4 button.next:hover {
+    background-color: #fff;
+    color: rgb(1, 1, 122);
+    border: 1px solid rgb(1, 1, 122);
+}
+  
+.page4 button.return:hover {
+    background-color: rgb(1, 1, 122);
+    color: #fff;
+    border: 1px solid rgb(1, 1, 122);
+}
+  
+.page4 button.return {
+    left: 0;
+    bottom: 1rem;
+    color: rgb(1, 1, 122);
+}
+  
+.page4 button.next {
+    background-color: rgb(1, 1, 122);
+    right: 0;
+    color: #fff;
+    bottom: 1rem;
+}
